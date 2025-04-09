@@ -61,3 +61,21 @@ nav {
     padding: 20px;
   }
 }
+
+/* BANDE + TEXTE */
+.bande {
+  background: #fb8500;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* espace */
+    padding: 20px;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase; /* mettre en majuscule */
+    color: #023047;
+  }
+}
