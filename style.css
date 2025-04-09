@@ -1,5 +1,43 @@
+/* Reset de base */
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px; /* espace gauche et droite */
+  background: #fb8500;
+
+  ul {
+    flex: 3;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    align-items: center;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  a {
+    text-decoration: none;
+    color: #023047;
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  img {
+    width: 200px;
+  }
 }
