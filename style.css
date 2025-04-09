@@ -23,7 +23,6 @@ nav {
     justify-content: end;
     gap: 10px;
     align-items: center;
-    letter-spacing: 2px;
     font-size: 1.2rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -39,5 +38,26 @@ nav {
 
   img {
     width: 200px;
+  }
+}
+
+/* HERO SECTION */
+#hero {
+  display: flex;
+  padding: 20px;
+  height: 80vh;
+
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    width: 50%;
+  }
+
+  img {
+    width: 50%;
+    padding: 20px;
   }
 }
