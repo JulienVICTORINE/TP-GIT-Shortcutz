@@ -149,3 +149,12 @@ form {
 }
 
 /* FOOTER */
+footer {
+  background-color: #fb8500;
+  color: #023047;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600; /* police en gras */
+  text-transform: uppercase;
+}
