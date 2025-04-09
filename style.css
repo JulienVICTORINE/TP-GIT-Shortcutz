@@ -31,6 +31,7 @@ nav {
   a {
     text-decoration: none;
     color: #023047;
+
     &:hover {
       opacity: 0.6;
     }
@@ -72,10 +73,61 @@ nav {
     align-items: center;
     gap: 20px; /* espace */
     padding: 20px;
-    letter-spacing: 2px;
     font-size: 1.2rem;
     font-weight: 600;
     text-transform: uppercase; /* mettre en majuscule */
     color: #023047;
   }
 }
+
+/* SECTIONS */
+section > img,
+section > div {
+  width: 50%;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+section > div {
+  padding: 20px;
+}
+
+/* TITRES */
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #023047;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fb8500;
+  letter-spacing: 2px;
+}
+
+/* TOUS LES BOUTONS */
+button {
+  background-color: #fb8500;
+  color: #023047;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  &:hover {
+    background-color: #ffb703;
+  }
+}
+
+/* Section Contact */
