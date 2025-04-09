@@ -21,10 +21,10 @@ nav {
     flex: 3;
     display: flex;
     justify-content: end;
-    gap: 10px;
     align-items: center;
+    gap: 10px;
     font-size: 1.2rem;
-    font-weight: 600; /* police en gras */
+    font-weight: 600; /* texte en gras */
     text-transform: uppercase; /* texte en majuscule */
   }
 
@@ -159,4 +159,77 @@ footer {
   font-size: 1.2rem;
   font-weight: 600; /* police en gras */
   text-transform: uppercase;
+}
+
+/* -------------------- */
+/*     RESPONSIVE     */
+/* -------------------- */
+
+/* Tablettes */
+
+@media (max-width: 992px) {
+  nav ul {
+    gap: 5px;
+    font-size: 1rem;
+  }
+
+  #hero {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+
+  #hero .hero-text,
+  img {
+    width: 100%;
+    padding: 20px;
+  }
+
+  section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  section > img,
+  section > div {
+    width: 100%;
+  }
+
+  .bande ul {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 576px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+
+    img {
+      width: 150px;
+    }
+
+    ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  form {
+    margin: 10px;
+  }
 }
