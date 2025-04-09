@@ -24,8 +24,8 @@ nav {
     gap: 10px;
     align-items: center;
     font-size: 1.2rem;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-weight: 600; /* police en gras */
+    text-transform: uppercase; /* texte en majuscule */
   }
 
   a {
@@ -59,13 +59,13 @@ nav {
 
   img {
     width: 50%;
-    padding: 20px;
+    padding: 80px;
   }
 }
 
 /* BANDE + TEXTE */
 .bande {
-  background: #fb8500;
+  background-color: #fb8500;
 
   ul {
     display: flex;
@@ -86,7 +86,7 @@ section > div {
   width: 50%;
 }
 
-.section {
+section {
   display: flex;
   align-items: center;
   justify-content: center;
